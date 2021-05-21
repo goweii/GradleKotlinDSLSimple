@@ -1,4 +1,4 @@
-package per.goweii.android.buildsrc
+package per.goweii.android.gradlekotlindslsimple
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

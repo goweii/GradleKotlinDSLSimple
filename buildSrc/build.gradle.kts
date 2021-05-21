@@ -7,13 +7,13 @@ buildscript {
         gradlePluginPortal()
     }
     dependencies {
-        classpath(kotlin("gradle-plugin", Versions.kotlinVersion))
+        classpath(kotlin("gradle-plugin", "1.4.31"))
     }
 }
 
 dependencies {
     implementation(gradleKotlinDsl())
-    implementation(Dependencies.kotlinStdlib)
+    implementation(kotlin("stdlib", "1.4.31"))
 }
 
 repositories {
